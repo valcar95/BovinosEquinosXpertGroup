@@ -1,0 +1,6 @@
+﻿
+<div layout="row" layout-align="center center"  style="border:3px dashed #aaa; height:100%; cursor:pointer" ng-click="">
+    <input type="file" file-input="file" value="Selecciona el archivo"/>
+    <md-button class="md-primary" ng-click="UploadFile()">Subir</md-button>
+    <div ng-if="errorMessage!=null" style="color:red">{{errorMessage}}</div>
+</div>
